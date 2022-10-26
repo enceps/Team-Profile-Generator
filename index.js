@@ -5,11 +5,13 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const OUTPUT_DIR = path.resolve(__dirname, "output");
+const OUTPUT_DIR = path.resolve(__dirname, "dist");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+// Code to use inquirer to gather information about the development team members,
+// and to create objects for each team member.
 const teamMembers = [];
 
 function start() {
@@ -144,7 +146,7 @@ function createFile() {
   } else {
 
     fs.writeFileSync(outputPath, render(teamMembers), "UTF-8");
-    console.log("File created in the output folder");
+    console.log("File created in the dist folder");
   }
   
 }
