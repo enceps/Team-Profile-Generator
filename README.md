@@ -5,7 +5,7 @@
 Clone repo , install inquirer, run "node index" in terminal at file destination
 
 
-media/Untitled_ Oct 25, 2022 11_54 PM.gif
+[media/Untitled_ Oct 25, 2022 11_54 PM.gif](https://github.com/enceps/Team-Profile-Generator/blob/85c5ef6cdf6b5af73691f44ee615f1889195f2a1/media/Untitled_%20Oct%2025,%202022%2011_54%20PM.gif)
 
 GIVEN a command-line application that accepts user input
 
